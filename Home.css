@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+}
+.image-container {
+  display: flex;
+  gap: 20px; /* Space between images */
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image {
+  width: 700px;
+  height: 360px;
+  flex-shrink: 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border:5px solid #7d2ae8;
+  margin-bottom: 120px;
+}
